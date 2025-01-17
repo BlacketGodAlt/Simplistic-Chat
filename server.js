@@ -63,7 +63,7 @@ const server = http.createServer((req, res) => {
             </style>
         </head>
         <body>
-            <div id="title">Simplistic Chat v 0.0.1</div>
+            <div id="title">Simplistic Chat 0.1</div>
             <div id="username-container">
                 <form id="username-form">
                     <input id="username-input" placeholder="Enter your username..." required />
