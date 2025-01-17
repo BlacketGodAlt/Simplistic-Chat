@@ -114,7 +114,7 @@ const server = http.createServer((req, res) => {
                 // Receive messages
                 socket.on('chat message', function({ username, message }) {
                     const item = document.createElement('li');
-                    item.textContent = `${username}: ${message}`;
+                    item.textContent = \`\${username}: \${message}\`;
                     messages.appendChild(item);
                     messages.scrollTop = messages.scrollHeight;
                 });
