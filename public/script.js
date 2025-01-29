@@ -2,6 +2,7 @@ const socket = io();
 
 // Listen for chat history and display it when a user joins
 socket.on('chat history', (history) => {
+    console.log("Received chat history:", history); // Debugging log
     history.forEach((msg) => {
         displayMessage(msg);
     });
@@ -16,7 +17,7 @@ socket.on('chat message', (msg) => {
 function sendMessage() {
     const input = document.getElementById('messageInput');
     const message = input.value.trim();
-    
+
     if (message) {
         socket.emit('chat message', message);
         input.value = ''; // Clear input field
