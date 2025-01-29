@@ -9,4 +9,11 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 4. Navigate to the **Ports** tab, right click the link, and click **Open in Browser** to launch the chat.
 
 #### Other Options
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=simplistic-chat&repository=BlacketGodAlt%2FSimplistic-Chat&branch=main&instance_type=free&regions=was&ports=3000%3Bhttp%3B%2F&hc_protocol%5B3000%5D=tcp&hc_grace_period%5B3000%5D=5&hc_interval%5B3000%5D=30&hc_restart_limit%5B3000%5D=3&hc_timeout%5B3000%5D=5&hc_path%5B3000%5D=%2F&hc_method%5B3000%5D=get)
+##### Koyeb
+Koyeb's **Deploy** button is currently broken and won't select the repository if the button is clicked, so...
+1. Login to Koyeb, go to **Overview**, select **Web Service**, and choose **Github**.
+2. Scroll down to **Public Repository** and copy and paste this link: `https://github.com/BlacketGodAlt/Simplistic-Chat`.
+3. Select **Free** plan if you can.
+4. On the **Review & Deploy** page, select **Builder** and set the **Build** command to `npm install` and the **Run** command to `node server.js`. Then, scroll down to **Ports** and set the port to `3000`.
+5. Click **Deploy**.
+6. Congratulations! Koyeb will handle the rest.
