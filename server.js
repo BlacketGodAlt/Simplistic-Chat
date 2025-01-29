@@ -2,51 +2,38 @@ const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
 
+// Initialize Express and create an HTTP server
 const app = express();
 const server = http.createServer(app);
+
+// Initialize Socket.IO with the server
 const io = new Server(server);
 
-// Store chat history (array)
-const chatHistory = [];
-
-// Serve static files from the 'public' folder
+// Serve static files (if you have a frontend)
 app.use(express.static('public'));
 
-// Root route for testing
+// Handle root route for testing purposes
 app.get('/', (req, res) => {
-    res.send('Multiplayer chat server is running!');
+  res.send('Multiplayer chat server is running!');
 });
 
 // Handle socket connections
 io.on('connection', (socket) => {
-    console.log('A user connected');
+  console.log('A user connected');
 
-    // Send chat history to the newly connected user
-    console.log("Sending chat history:", chatHistory);
-    socket.emit('chat history', chatHistory);
+  // Listen for chat messages and broadcast them
+  socket.on('chat message', (msg) => {
+    io.emit('chat message', msg);
+  });
 
-    // Listen for incoming chat messages
-    socket.on('chat message', (msg) => {
-        // Save message to history
-        chatHistory.push(msg);
-
-        // Keep only the last 50 messages
-        if (chatHistory.length > 50) {
-            chatHistory.shift();
-        }
-
-        // Broadcast message to all users
-        io.emit('chat message', msg);
-    });
-
-    // Handle user disconnection
-    socket.on('disconnect', () => {
-        console.log('A user disconnected');
-    });
+  // Handle user disconnections
+  socket.on('disconnect', () => {
+    console.log('A user disconnected');
+  });
 });
 
-// Define port for deployment and local testing
-const PORT = process.env.PORT || 3000;
+// Dynamically assign the port from the environment variable (for Koyeb or other hosts)
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
