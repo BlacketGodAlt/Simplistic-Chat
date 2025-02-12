@@ -19,3 +19,4 @@ Koyeb's **Deploy** button is currently broken and won't select the repository if
 7. Congratulations! Koyeb will handle the rest.
 
 > [!IMPORTANT]
+> BUG REPORTS MAY TAKE SOME TIME TO BE RESPONDED TO!
