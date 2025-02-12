@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support Request
+    url: https://github.com/Simplistic-Chat/Discussions
+    about: Please ask support questions in discussions instead of opening an issue.
