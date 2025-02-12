@@ -18,4 +18,4 @@ Koyeb's **Deploy** button is currently broken and won't select the repository if
 6. Click **Deploy**.
 7. Congratulations! Koyeb will handle the rest.
 
-> [IMPORTANT!]
+> [!IMPORTANT]
