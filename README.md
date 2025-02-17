@@ -9,14 +9,9 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 
 #### Other Options
 ##### Koyeb
-Koyeb's **Deploy** button is currently broken and won't select the repository if the button is clicked, so...
-1. Login to Koyeb, go to **Overview**, select **Web Service**, and choose **Github**.
-2. Scroll down to **Public Repository** and copy and paste this link: `https://github.com/BlacketGodAlt/Simplistic-Chat`.
-3. Select **Free** plan if you can.
-4. On the **Review & Deploy** page, select **Builder**.
-5. Set the **Build** command to `npm install` and the **Run** command to `node server.js`. Then, scroll down to **Ports** and set the port to `3000`.
-6. Click **Deploy**.
-7. Congratulations! Koyeb will handle the rest.
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/BlacketGodAlt/Simplistic-Chat"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
+> [!WARNING]
+> When using Koyeb, it will not autofill the build & deploy commands. Set the build command to `npm install` and the deploy command to `node server.js`.
 > [!IMPORTANT]
-> Bug reports may not be responded to immediately. If a bug is *urgent,* start your issue with [URGENT!]
+> Bug reports may not be responded to immediately.
