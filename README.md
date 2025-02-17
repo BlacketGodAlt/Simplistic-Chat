@@ -14,5 +14,6 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 </a>
 > [!WARNING]
 > When using Koyeb, it will not autofill the build & deploy commands. Set the build command to `npm install` and the deploy command to `node server.js`.
+
 > [!IMPORTANT]
-> Bug reports may not be responded to immediately.
+> Bug reports may not be responded to immediately. Don't be worried if yours isn't responded to the same day.
