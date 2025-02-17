@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: chat-app
+    runtime: node
+    buildCommand: ""
+    startCommand: "node server.js"
