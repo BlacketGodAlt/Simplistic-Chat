@@ -9,7 +9,7 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 
 #### Other Options
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/BlacketGodAlt/Simplistic-Chat"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a href="https://render.com/deploy?repo=https://github.com/BlacketGodAlt/Simplistic-Chat">
+<a href="https://render.com/deploy?repo=https://github.com/render-examples/mattermost">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
 </a>
 > [!WARNING]
