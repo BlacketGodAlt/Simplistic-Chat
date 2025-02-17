@@ -8,9 +8,10 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 3. Navigate to the **Ports** tab, right click the link, and click **Open in Browser** to launch the chat.
 
 #### Other Options
-##### Koyeb
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/BlacketGodAlt/Simplistic-Chat"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-
+<a href="https://render.com/deploy?repo=https://github.com/BlacketGodAlt/Simplistic-Chat">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
+</a>
 > [!WARNING]
 > When using Koyeb, it will not autofill the build & deploy commands. Set the build command to `npm install` and the deploy command to `node server.js`.
 > [!IMPORTANT]
