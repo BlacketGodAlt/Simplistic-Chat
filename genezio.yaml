@@ -1,0 +1,19 @@
+backend:
+    functions:
+        - entry: server.js
+          handler: handler
+          name: function-express
+          path: .
+          type: httpServer
+    language:
+        name: js
+        runtime: nodejs20.x
+    path: .
+    scripts:
+        deploy:
+            - npm install
+        local:
+            - npm install
+name: Simplistic-Chat
+region: us-east-1
+yamlVersion: 2
