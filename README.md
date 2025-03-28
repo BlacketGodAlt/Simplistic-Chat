@@ -19,6 +19,6 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 > Bug reports may not be responded to immediately. Don't be worried if yours isn't responded to the same day.
 
 > [!TIP]
-> You can download an HTML file of this chat [here.](https://github.com/BlacketGodAlt/Simplistic-Chat-HTML-File)
+> You can download an HTML file of this chat [here](https://github.com/BlacketGodAlt/Simplistic-Chat-HTML-File) if you don't want to deploy it.
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/41c0413bd90bc87e22cbf51fa385afe6257a0c3f.svg "Repobeats analytics image")
