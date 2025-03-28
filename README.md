@@ -1,5 +1,9 @@
 # Simplistic Chat!
 
+
+[](https://github.com/user-attachments/assets/3d3e315c-b143-4ee9-bc5b-ae2ad9840818)
+
+
 One of the most simplistic multi-person chats. This chat uses a JavaScript frontend and a Node.js backend. (NOTE: This chat is currently in BETA testing. Expect bugs!)
 ### Steps to run:
 #### Github Codespaces
