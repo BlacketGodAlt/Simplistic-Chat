@@ -1,7 +1,9 @@
 # Simplistic Chat!
 
 
-[](https://github.com/user-attachments/assets/3d3e315c-b143-4ee9-bc5b-ae2ad9840818)
+
+https://github.com/user-attachments/assets/d6a337af-e921-42b2-8f93-05dcfd672ccb
+
 
 
 One of the most simplistic multi-person chats. This chat uses a JavaScript frontend and a Node.js backend. (NOTE: This chat is currently in BETA testing. Expect bugs!)
@@ -23,6 +25,6 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 > Bug reports may not be responded to immediately. Don't be worried if yours isn't responded to the same day.
 
 > [!TIP]
-> You can download an HTML file of this chat [here](https://github.com/BlacketGodAlt/Simplistic-Chat-HTML-File) if you don't want to deploy it.
+> You can download an HTML file of this chat [here](https://github.com/BlacketGodAlt/Simplistic-Chat-HTML-File/archive/refs/heads/main.zip) if you don't want to deploy it.
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/41c0413bd90bc87e22cbf51fa385afe6257a0c3f.svg "Repobeats analytics image")
