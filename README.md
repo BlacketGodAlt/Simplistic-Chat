@@ -21,9 +21,6 @@ One of the most simplistic multi-person chats. This chat uses a JavaScript front
 > [!WARNING]
 > When using Koyeb, it will not autofill the build & deploy commands. Set the build command to `npm install` and the deploy command to `node server.js`.
 
-> [!NOTE]
-> Bug reports may not be responded to immediately. Don't be worried if yours isn't responded to the same day.
-
 > [!TIP]
 > You can download an HTML file of this chat [here](https://github.com/BlacketGodAlt/Simplistic-Chat-HTML-File/archive/refs/heads/main.zip) if you don't want to deploy it.
 ## Activity
